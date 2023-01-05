@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=gr
+comment0.target=Tetrad(MyBoundedGrid)
+comment0.text=\n\ Constructs\ tetrad.\ \n\ \n\ @param\ gr\ \ \ \ \ Grid\ that\ tetrad\ is\ placed\ into.\n
+comment1.params=
+comment1.target=boolean\ getValid()
+comment1.text=\n\ Returns\ whether\ or\ not\ isValid\ instance\ variable\ is\ true.\n\ isValid\ indicates\ if\ tetrad\ shape\ is\ placed\ in\ valid\ locations\n\ \n\ @return\ \ \ \ \ \ true\ if\ instance\ variable\ isValid\ is\ true,\ otherwise;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment2.params=gr\ locs
+comment2.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment2.text=\n\ Tetrad\ is\ added\ to\ grid\ at\ specified\ locations.\ \n\ \n\ @precondition\ \ \ \ \ Tetrad\ blocks\ are\ not\ in\ any\ grid.\ \n\ @param\ gr\ \ \ \ \ \ \ Grid\ that\ tetrad\ is\ placed\ into.\ \n\ @param\ locs\ \ \ \ \ \ \ Location\ where\ tetrad\ will\ be\ placed.\ \n\ \n
+comment3.params=
+comment3.target=Location[]\ removeBlocks()
+comment3.text=\n\ Removes\ tetrad\ blocks\ from\ the\ grid.\n\ \ \n\ @return\ \ \ \ \ \ \ Grid\ that\ tetrad\ is\ placed\ into.\ \n
+comment4.params=gr\ locs
+comment4.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment4.text=\n\ Determines\ if\ locations\ are\ valid\ and\ empty.\ \n\ \n\ @param\ gr\ \ \ \ \ \ Grid\ that\ tetrad\ is\ placed\ into.\ \n\ @param\ locs\ \ \ \ \ \ Locations\ that\ tetrad\ is\ placed\ into.\ \n\ \n\ @return\ \ \ \ \ \ \ true\ if\ locations\ are\ valid\ and\ empty;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment5.params=deltaRow\ deltaCol
+comment5.target=boolean\ translate(int,\ int)
+comment5.text=\n\ Determines\ if\ tetrad\ can\ be\ translated\ and\ does\ so,\ if\ valid.\ \n\ \n\ @param\ deltaRow\ \ \ \ \ \ \ Number\ of\ units\ location's\ row\ is\ shifted.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ deltaCol\ \ \ \ \ \ \ Number\ of\ units\ location's\ column\ is\ shifted.\ \ \ \ \ \ \ \ \n\ \n\ @return\ \ \ \ \ \ \ true\ if\ tetrad\ can\ be\ translated;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment6.params=
+comment6.target=boolean\ rotate()
+comment6.text=\n\ Rotates\ tetrid\ shape\ around\ central\ pivoting\ point.\ \n\ \n\ @return\ \ \ \ \ \ true\ if\ shape\ can\ rotate;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+numComments=7

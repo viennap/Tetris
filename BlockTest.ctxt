@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BlockTest()
+comment0.text=\n\ Default\ constructor\ for\ test\ class\ BlockTest\ -\ created\ by\ 'Create\ Test\ Class'\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Sets\ up\ the\ test\ fixture\ -\ created\ by\ 'Create\ Test\ Class'\n\n\ Called\ before\ every\ tefst\ case\ method.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Tears\ down\ the\ test\ fixture\ -\ created\ by\ 'Create\ Test\ Class'\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ level1()
+comment3.text=\n\ Test\ method\ -\ A\ sample\ can\ be\ created\ by\ 'Create\ Test\ Method'\n\ Each\ is\ preceded\ by\ the\ attribute\ tag\ \n\ @Test\ -\ if\ commented\ out\ will\ not\ appear\ in\ list\ of\ tests,\ \n\ nor\ run\ in\ all\ tests\n
+comment4.params=
+comment4.target=void\ level1fail()
+comment4.text=\n\ Test\ method\ should\ fail\ on\ correct\ code\ -\ to\ show\ use\ of\ assert\ debugger\ (Test\ Results)\n
+comment5.params=
+comment5.target=void\ testingPreamble()
+comment5.text=\n\ testingPreamble\ -\ student\ instructions\n
+comment6.params=
+comment6.target=void\ levels()
+comment6.text=\n\ LevelsA\n\ Tests\ levels\ 1\ -\ 4\n\ These\ tests\ are\ independent\ of\ Levels\ 5\ -\ 10\n
+numComments=7
